@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Table</title>
+      <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+      <center>
+            <table border="4">
+                  <thead>
+                        <tr>
+                              <th>First Name</th>
+                              <td><input type="text" name="fname" id="fname"></td>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        <tr>
+                              <th>Last Name</th>
+                              <td><input type="text" name="lname" id="lname"></td>
+                        </tr>
+                <tr>
+                              <th>Gender</th>
+                              <td><input type="radio" name="gender" id="gender" value="None">None
+                        <input type="radio" name="gender" id="gender" value="Male">Male
+                        <input type="radio" name="gender" id="gender" value="Female">Female
+                        <input type="radio" name="gender" id="gender" value="Others">Others</td>
+                       
+                        </tr>
+                <tr>
+                              <th>Department</th>
+                              <td><select name="DEPT" id="dept">
+                        <option  value="NONE">NONE</option>
+                        <option  value="CSE">CSE</option>
+                        <option  value="IT">IT</option>
+                        <option  value="ECE">ECE</option>
+                        <option  value="EEE">EEE</option>
+                        <option  value="CIVIL">CIVIL</option>
+                        <option  value="MECHANICAL">MECHANICAL</option>
+                    </select></td>
+                        </tr>
+               
+                        <tr>
+                              <th>Email</th>
+                              <td><input type="email" name="email" id="email"></td>
+                        </tr>
+                <tr>
+                              <th>Password</th>
+                              <td><input type="password" name="password" id="password"></td>
+                        </tr>
+                <tr>
+                              <th>ROll Number</th>
+                              <td><input type="text" name="Roll Number" id="Roll Number"></td>
+                        </tr>
+                <tr>
+                              <th>Address</th>
+                              <td><textarea id="address"></textarea></td>
+                        </tr>
+               
+                        <tr id="btna">
+                              <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+                        </tr>
+                <tr>
+                    <td ><a copage.html" target="_default"><button >SUBMIT</button>
+                    </td>
+                </tr>
