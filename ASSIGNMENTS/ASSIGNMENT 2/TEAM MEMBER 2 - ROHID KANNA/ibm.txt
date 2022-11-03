@@ -1,1 +1,39 @@
+<!IDOCTYPE html>
+<html>
 
+<head>
+<title>Sample registration page</title>
+<meta charset="UTF-8">
+<h1>Registration Page</h1><br>
+<script type="text/javascript">
+function callvalue() {
+var n = document.getElementByld("name").value;
+var email = document.getElementByld("email").value;
+var mobile = document.getElementByld("no").value;
+document.writeln("<b>Your info:<b>" + "<br><br>");
+document.writeln("Name:" + n + "<br><br>");
+document.writeln("Your email:" + email + "<br><br>");
+document.writeln("Your mobile no:" + mobile);
+}
+</script>
+</head>
+
+<body style="background-color:rgb(230, 228, 228);text-align:center;">
+<form onsubmit="callvalue()">
+<label><b>Username</b></label>
+<input type="text" placeholder="Enter username" id="name" size="15"
+required><br><br>
+<label><b>Email</b></label>
+<input type="email" placeholder="Enter email" id="email" size="15"
+required><br><br>
+<label><b>Roll Number</b></label>
+<input type="number" placeholder="Enter roll number" id="no" size="15"
+required><br><br>
+<label><b>Password</b></label>
+<input type="text" placeholder="enter password" size="15" required><br><br>
+<input type="submit" id="MmySubmit" value="Register"
+POST="METHOD"><br><br>
+</form>
+</body>
+
+</html>
